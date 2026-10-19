@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.prog_poe_part2.MessageTest" time="0.13" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.prog_poe_part2.MessageTest" time="0.115" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\Student\AppData\Local\Temp\surefire5773769018890950015\surefirebooter-20261019162957046_3.jar C:\Users\Student\AppData\Local\Temp\surefire5773769018890950015 2026-10-19T16-29-56_826-jvmRun1 surefire-20261019162957046_1tmp surefire_0-20261019162957046_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Student\AppData\Local\Temp\surefire12106540035514057372\surefirebooter-20261019170241335_3.jar C:\Users\Student\AppData\Local\Temp\surefire12106540035514057372 2026-10-19T17-02-41_123-jvmRun1 surefire-20261019170241335_1tmp surefire_0-20261019170241335_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.mycompany.prog_poe_part2.MessageTest"/>
     <property name="surefire.test.class.path" value="C:\Users\Student\Documents\NetBeansProjects\PROG_poe_part2\target\test-classes;C:\Users\Student\Documents\NetBeansProjects\PROG_poe_part2\target\classes;C:\Users\Student\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Student\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Student\AppData\Local\Temp\surefire5773769018890950015\surefirebooter-20261019162957046_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Student\AppData\Local\Temp\surefire12106540035514057372\surefirebooter-20261019170241335_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testReturnTotalMessages" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.02">
+  <testcase name="testReturnTotalMessages" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.019">
     <system-out><![CDATA[returnTotalMessages
 ]]></system-out>
   </testcase>
@@ -74,7 +74,7 @@
     <system-out><![CDATA[checkMessageID
 ]]></system-out>
   </testcase>
-  <testcase name="testCheckRecipientCell" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.001">
+  <testcase name="testCheckRecipientCell" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.0">
     <system-out><![CDATA[checkRecipientCell
 ]]></system-out>
   </testcase>
@@ -82,7 +82,7 @@
     <system-out><![CDATA[checkMessageLength
 ]]></system-out>
   </testcase>
-  <testcase name="testPrintMessages" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.0">
+  <testcase name="testPrintMessages" classname="com.mycompany.prog_poe_part2.MessageTest" time="0.001">
     <system-out><![CDATA[printMessages
 ]]></system-out>
   </testcase>
